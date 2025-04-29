@@ -38,10 +38,14 @@ INSTALLATION GUIDE
 Obviously, you need to install Python first.  If you haven't... well, you're not going to be able to use this.  Go to https://www.python.org/downloads/ and download the latest version of Python, I'm using Python 3.13.3.  From there, make sure you have Pip, Python's package manager, since we're going to need it to download and install Beautifulsoup.  
 
 
-Now you need to change a few variables.  
+Now you need to change a few variables.
+
 FROM_EMAIL = "youraddress@gmail.com"
+
 TO_EMAIL = "youraddress@gmail.com"
+
 APP_PASSWORD = "your-gmail-app-password"
+
 
 You will also need to set the specific URL that you're monitoring.  
 
